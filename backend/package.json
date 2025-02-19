@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "npx prisma generate && tsc",
+    "build": "prisma generate && tsc",
     "dev": "nodemon",
     "start": "node dist/server.js"
   },
